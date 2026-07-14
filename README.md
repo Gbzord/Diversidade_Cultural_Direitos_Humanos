@@ -16,58 +16,6 @@ Este trabalho interativo examina como sistemas técnicos — algoritmos de recru
 - Como a prevenção é mais ética e barata que a reparação
 - A responsabilidade compartilhada entre poder público, empresas e usuários
 
----
-
-## 🎯 Seções Principais
-
-### 1. **Declaração** (`#declaracao`)
-Apresenta seis artigos da Declaração Universal dos Direitos Humanos que fundamentam os estudos de caso:
-
-- **Artigo 1º**: Igualdade de nascença
-- **Artigo 2º**: Vedação à distinção
-- **Artigo 7º**: Igualdade perante a lei
-- **Artigo 12**: Privacidade e vida íntima
-- **Artigo 19**: Liberdade de expressão
-- **Artigo 23**: Direito ao trabalho
-
-
-### 2. **Estudos de Caso** (`#casos`)
-Três casos contemporâneos estruturados em quatro blocos cada um:
-
-#### **Caso 1: Discriminação em Seleção de Emprego**
-- *O que houve*: Sistemas de triagem automática (ATS) perpetuam preconceitos históricos
-- *Normas violadas*: DUDH Arts. 2º, 7º, 23; CF/88 Art. 5º; Lei 9.029/1995; CLT Art. 373-A
-- *Prevenção*: Auditoria de viés, blind recruitment, transparência algorítmica
-- *Ações*: MPT, PL 2338/2023, comitês de ética corporativos
-- **Demo interativa**: Simulação de taxa de aprovação com/sem auditoria de viés
-
-#### **Caso 2: Discurso de Ódio nas Redes Sociais**
-- *O que houve*: Algoritmos de recomendação maximizam engajamento, favorecendo conteúdo inflamatório
-- *Normas violadas*: DUDH Arts. 1º, 2º, 7º; CF/88 Art. 5º, XLII; Lei 7.716/1989; Marco Civil
-- *Prevenção*: Moderação híbrida, canais de denúncia, educação midiática
-- *Ações*: Tipificação do racismo, responsabilidade de plataformas, auditorias
-
-#### **Caso 3: Violação de Privacidade e Dados Pessoais**
-- *O que houve*: Vazamentos em massa expõem CPFs, dados de renda, informações familiares
-- *Normas violadas*: DUDH Art. 12; CF/88 Art. 5º, X; LGPD Lei 13.709/2018
-- *Prevenção*: Privacy by design, criptografia, consentimento granular
-- *Ações*: Sanções da ANPD, ações judiciais, investimento em segurança
-
-### 3. **Conscientização** (`#consciencia`)
-Síntese com três princípios-chave:
-
-1. Direitos humanos na era digital são a mesma Declaração de 1948 aplicada a novas ferramentas
-2. Prevenção é mais barata e ética que reparação
-3. Responsabilidade é compartilhada: poder público, empresas e usuários
-
-### 4. **Referências** (`#referencias`)
-Lista completa de fontes normativas:
-- Declaração Universal dos Direitos Humanos (1948)
-- Constituição Federal do Brasil (1988)
-- Leis trabalhistas, de proteção de dados e marco regulatório de IA
-- Institucões: ANPD, MPT, etc.
-
----
 
 ## 🛠️ Tecnologias
 
@@ -172,27 +120,6 @@ Todos os artigos, normas e legislação citados são fundamentados em:
 **Gabriel Christino**  
 Faculdade de Tecnologia Senac Rio  
 Disciplina: Diversidade Cultural e Direitos Humanos
-
----
-
-## 📄 Licença
-
-Este projeto é fornecido para fins educacionais. Sinta-se livre para usar, modificar e distribuir com fins pedagógicos, mantendo a atribuição ao autor original.
-
----
-
-## 🤝 Contribuições
-
-Sugestões, correções ou melhorias são bem-vindas! Abra uma *issue* ou envie um *pull request*.
-
----
-
-## 🔗 Links Rápidos
-
-- [Ir para a Declaração](#declaracao)
-- [Ir para Estudos de Caso](#casos)
-- [Ir para Conscientização](#consciencia)
-- [Ver Referências](#referencias)
 
 ---
 
