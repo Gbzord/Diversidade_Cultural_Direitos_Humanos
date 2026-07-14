@@ -58,10 +58,6 @@ Projeto_DH/
 
 ### Comportamentos Interativos
 
-**Artigos (Declaração)**
-- Clique no botão "Mostrar / Ocultar" para expandir/colapsar conteúdo
-- O título permanece sempre visível
-
 **Estudos de Caso**
 - Clique no cabeçalho do caso para abrir/fechar o painel
 - Explore "O que houve", "Normas violadas", "Prevenção" e "Ações"
