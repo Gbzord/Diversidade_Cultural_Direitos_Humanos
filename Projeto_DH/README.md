@@ -1,3 +1,5 @@
+<img width="80" height="80" alt="un_PNG20-removebg-preview" src="https://github.com/user-attachments/assets/1c7d4468-e319-46cf-92e0-f18a7677dc0d" />
+
 # Direitos Humanos na Era Digital
 
 > **Quando o direito humano encontra o código, o feed e o banco de dados.**
