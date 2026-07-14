@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Human Rights | Estudos de Caso</title>
+    <meta
+      name="description"
+      content="Avaliação sobre Diversidade Cultural e Direitos Humanos: a Declaração Universal e três estudos de caso contemporâneos — viés algorítmico em recrutamento, discurso de ódio em redes sociais e violação de dados pessoais."
+    />
+
+    <!-- ============================================================
+     TIPOGRAFIA
+     Fraunces  -> fonte de exibição (títulos, citações de artigo)
+     Source Sans 3 -> corpo de texto (leitura corrida)
+     IBM Plex Mono -> uso utilitário: citações jurídicas / §
+============================================================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- ============================================================
+     CABEÇALHO / NAVEGAÇÃO
+============================================================= -->
+    <header class="site-header">
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#topo" class="nav-mark"
+          ><img src="images/img01.png" width="70" height="70" />
+        </a>
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-expanded="false"
+          aria-controls="navList"
+          aria-label="Abrir menu"
+        >
+          ≡
+        </button>
+        <ul class="nav-list" id="navList">
+          <li><a href="#topo">Início</a></li>
+          <li><a href="#declaracao">Declaração</a></li>
+          <li><a href="#casos">Estudos de caso</a></li>
+          <li><a href="#consciencia">Conscientização</a></li>
+          <li><a href="#referencias">Referências</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="topo">
+      <!-- ============================================================
+       HERO
+  ============================================================= -->
+      <section class="hero">
+        <div class="container">
+          <h1>
+            Quando o direito humano encontra o código, o feed e o banco de
+            dados.
+          </h1>
+          <div class="hero-rule"></div>
+          <p class="hero-lede">
+            A Declaração Universal dos Direitos Humanos (1948) não foi escrita
+            pensando em algoritmos de recrutamento, redes sociais ou bancos de
+            dados na nuvem , mas é exatamente nesses espaços que boa parte das
+            violações de direitos acontece hoje. Este trabalho conecta
+            <strong>três artigos da Declaração</strong> a
+            <strong>três problemas concretos e atuais</strong>, mostrando o que
+            a norma diz, o que a prática viola e o que já está sendo feito para
+            conter o dano.
+          </p>
+          <div class="hero-cases">
+            <a class="hero-case-pill" href="#caso-1"
+              ><span class="n">01</span> Viés algorítmico em RH</a
+            >
+            <a class="hero-case-pill" href="#caso-2"
+              ><span class="n">02</span> Discurso de ódio em rede</a
+            >
+            <a class="hero-case-pill" href="#caso-3"
+              ><span class="n">03</span> Dados pessoais e LGPD</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+       DECLARAÇÃO — painel-documento
+  ============================================================= -->
+      <section class="declaracao" id="declaracao">
+        <div class="container">
+          <p class="eyebrow">A declaração de 1948</p>
+          <h2>
+            Seis artigos, um mesmo princípio: dignidade não se negocia por
+            contexto.
+          </h2>
+          <p class="declaracao-intro">
+            Adotada pela Assembleia Geral da ONU em 10 de dezembro de 1948, a
+            Declaração Universal dos Direitos Humanos estabeleceu, pela primeira
+            vez em escala global, um piso comum de dignidade aplicável a toda
+            pessoa, independentemente de nacionalidade, origem ou contexto. Os
+            seis artigos abaixo formam a base normativa usada nos três estudos
+            de caso a seguir.
+          </p>
+
+          <div class="articles-grid">
+            <article class="article-card">
+              <span class="clause">§ Artigo 1º</span>
+              <h3>Igualdade de nascença</h3>
+              <p>
+                Todo ser humano nasce livre e igual em dignidade e direitos,
+                dotado de razão e consciência, devendo agir em espírito de
+                fraternidade.
+              </p>
+              <span class="links-to">Base para os 3 casos</span>
+            </article>
+
+            <article class="article-card">
+              <span class="clause">§ Artigo 2º</span>
+              <h3>Vedação à distinção</h3>
+              <p>
+                Toda pessoa tem os direitos e liberdades da Declaração sem
+                distinção de raça, cor, sexo, idioma, religião, opinião ou
+                qualquer outra condição.
+              </p>
+              <span class="links-to">Casos 1 e 2</span>
+            </article>
+
+            <article class="article-card">
+              <span class="clause">§ Artigo 7º</span>
+              <h3>Igualdade perante a lei</h3>
+              <p>
+                Todos são iguais perante a lei e têm direito a igual proteção
+                contra qualquer discriminação que viole a Declaração, e contra
+                incitamento a tal discriminação.
+              </p>
+              <span class="links-to">Casos 1 e 2</span>
+            </article>
+
+            <article class="article-card">
+              <span class="clause">§ Artigo 12</span>
+              <h3>Privacidade e vida íntima</h3>
+              <p>
+                Ninguém sofrerá interferência arbitrária em sua vida privada,
+                família, lar ou correspondência, tendo direito à proteção da lei
+                contra tais interferências.
+              </p>
+              <span class="links-to">Caso 3</span>
+            </article>
+
+            <article class="article-card">
+              <span class="clause">§ Artigo 19</span>
+              <h3>Liberdade de expressão</h3>
+              <p>
+                Toda pessoa tem direito à liberdade de opinião e expressão — um
+                direito que convive, e não colide, com o dever de não incitar
+                ódio ou violência contra terceiros.
+              </p>
+              <span class="links-to">Caso 2</span>
+            </article>
+
+            <article class="article-card">
+              <span class="clause">§ Artigo 23</span>
+              <h3>Direito ao trabalho</h3>
+              <p>
+                Toda pessoa tem direito ao trabalho, à livre escolha de emprego,
+                a condições justas e a proteção contra o desemprego, sem base
+                discriminatória.
+              </p>
+              <span class="links-to">Caso 1</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+       ESTUDOS DE CASO
+  ============================================================= -->
+      <section class="casos" id="casos">
+        <div class="container">
+          <div class="casos-head">
+            <p class="eyebrow">Da norma à prática</p>
+            <h2>
+              Três casos, três frentes de violação tecnológica de direitos
+            </h2>
+            <p>
+              Cada caso segue a mesma estrutura: o que acontece, quais normas
+              são violadas, como o dano pode ser prevenido e o que poder público
+              e empresas já fazem a respeito. Clique em um caso para abrir.
+            </p>
+          </div>
+
+          <!-- ===================== CASO 1 ===================== -->
+          <article class="case" id="caso-1">
+            <button
+              class="case-toggle"
+              aria-expanded="true"
+              aria-controls="painel-1"
+            >
+              <span class="case-index">01</span>
+              <span class="case-titles">
+                <h3>Discriminação em seleção de emprego</h3>
+                <span
+                  >Quando o algoritmo herda o preconceito de quem o
+                  treinou</span
+                >
+              </span>
+              <span class="case-chevron" aria-hidden="true">+</span>
+            </button>
+
+            <div class="case-panel" id="painel-1">
+              <div class="case-block">
+                <h4>O que houve</h4>
+                <p>
+                  Sistemas de triagem automática de currículos (ATS) treinados
+                  com dados históricos tendem a perpetuar preconceitos sob uma
+                  falsa neutralidade técnica, como no caso do St. George’s
+                  Hospital Medical School, onde o algoritmo reproduziu vieses de
+                  gênero e raça. Ao replicar o comportamento histórico dos
+                  avaliadores humanos, esses sistemas automatizam e escalam a
+                  discriminação estrutural do passado.
+                </p>
+              </div>
+
+              <div class="case-block violacao">
+                <h4>Artigos e normas violadas</h4>
+                <div class="chips">
+                  <span class="chip">DUDH · Art. 2º</span>
+                  <span class="chip">DUDH · Art. 7º</span>
+                  <span class="chip">DUDH · Art. 23, §1</span>
+                  <span class="chip">CF/88 · Art. 5º, caput e XLI</span>
+                  <span class="chip">Lei 9.029/1995</span>
+                  <span class="chip">CLT · Art. 373-A</span>
+                </div>
+              </div>
+
+              <div class="case-block prevencao">
+                <h4>Prevenção</h4>
+                <ul>
+                  <li>
+                    Auditoria de viés (<em>fairness audit</em>) antes e depois
+                    do modelo entrar em produção.
+                  </li>
+                  <li>
+                    Remoção de variáveis-proxy sensíveis: nome, foto, idade,
+                    CEP, instituição de origem.
+                  </li>
+                  <li>
+                    <em>Blind recruitment</em> nas fases iniciais e
+                    explicabilidade obrigatória das decisões do modelo.
+                  </li>
+                  <li>
+                    Teste periódico de disparidade de impacto entre grupos (ex.:
+                    regra dos quatro quintos).
+                  </li>
+                </ul>
+              </div>
+
+              <div class="case-block acao">
+                <h4>Ações do poder público e das empresas</h4>
+                <ul>
+                  <li>
+                    Ministério Público do Trabalho pode instaurar inquérito
+                    civil e firmar TAC em casos de discriminação comprovada.
+                  </li>
+                  <li>
+                    O PL 2338/2023 (marco regulatório de IA no Brasil) prevê
+                    avaliação obrigatória de risco para sistemas usados em
+                    seleção de pessoal.
+                  </li>
+                  <li>
+                    Empresas vêm adotando comitês de ética em dados e relatórios
+                    de impacto algorítmico antes do deploy.
+                  </li>
+                </ul>
+              </div>
+
+              <!-- ---- demo interativo: simulação de viés ---- -->
+              <div class="bias-demo">
+                <div class="bias-demo-head">
+                  <h4>Simulação — taxa de aprovação na triagem automática</h4>
+                  <div
+                    class="bias-toggle"
+                    role="group"
+                    aria-label="Alternar modelo de triagem"
+                  >
+                    <button type="button" id="btnUnaudited" aria-pressed="true">
+                      Sem auditoria
+                    </button>
+                    <button type="button" id="btnAudited" aria-pressed="false">
+                      Com auditoria de viés
+                    </button>
+                  </div>
+                </div>
+
+                <div class="bias-row">
+                  <span class="label">Currículos com marcadores masc.</span>
+                  <div class="bias-track">
+                    <div class="bias-fill" id="fillA"></div>
+                  </div>
+                  <span class="bias-pct" id="pctA">—</span>
+                </div>
+                <div class="bias-row">
+                  <span class="label">Currículos com marcadores fem.</span>
+                  <div class="bias-track">
+                    <div class="bias-fill b" id="fillB"></div>
+                  </div>
+                  <span class="bias-pct" id="pctB">—</span>
+                </div>
+                <p class="bias-caption">
+                  Simulação ilustrativa (dados fictícios, para fins
+                  pedagógicos), baseada no padrão documentado na literatura
+                  sobre viés algorítmico em recrutamento — não corresponde a
+                  números reais de nenhuma empresa específica.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===================== CASO 2 ===================== -->
+          <article class="case" id="caso-2">
+            <button
+              class="case-toggle"
+              aria-expanded="false"
+              aria-controls="painel-2"
+            >
+              <span class="case-index">02</span>
+              <span class="case-titles">
+                <h3>Discurso de ódio nas redes sociais</h3>
+                <span
+                  >Liberdade de expressão não é liberdade para violar direitos
+                  alheios</span
+                >
+              </span>
+              <span class="case-chevron" aria-hidden="true">+</span>
+            </button>
+
+            <div class="case-panel" id="painel-2" hidden>
+              <div class="case-block">
+                <h4>O que houve</h4>
+                <p>
+                  Plataformas de rede social otimizam seus algoritmos de
+                  recomendação para maximizar engajamento , e conteúdo que
+                  provoca indignação costuma engajar mais do que conteúdo
+                  neutro. Esse desenho de incentivo, combinado a moderação
+                  insuficiente, favorece a viralização de ataques coordenados
+                  (racistas, LGBTfóbicos, misóginos ou religiosos) contra
+                  indivíduos e grupos, muitas vezes sob anonimato ou perfis
+                  falsos, com dano psicológico, reputacional e, em casos
+                  extremos, físico às vítimas.
+                </p>
+              </div>
+
+              <div class="case-block violacao">
+                <h4>Artigos e normas violadas</h4>
+                <div class="chips">
+                  <span class="chip">DUDH · Art. 1º</span>
+                  <span class="chip">DUDH · Art. 2º</span>
+                  <span class="chip">DUDH · Art. 7º</span>
+                  <span class="chip">CF/88 · Art. 5º, XLII</span>
+                  <span class="chip">Lei 7.716/1989</span>
+                  <span class="chip"
+                    >Marco Civil da Internet · Lei 12.965/2014</span
+                  >
+                </div>
+              </div>
+
+              <div class="case-block prevencao">
+                <h4>Prevenção</h4>
+                <ul>
+                  <li>
+                    Moderação híbrida (classificadores automáticos + revisão
+                    humana especializada) antes da viralização.
+                  </li>
+                  <li>
+                    Canais de denúncia acessíveis e resposta em prazo curto, com
+                    transparência sobre o motivo de cada decisão.
+                  </li>
+                  <li>
+                    Educação midiática e digital desde a educação básica,
+                    incluída na BNCC como competência transversal.
+                  </li>
+                  <li>
+                    Auditoria pública dos critérios de recomendação de conteúdo
+                    (transparência algorítmica).
+                  </li>
+                </ul>
+              </div>
+
+              <div class="case-block acao">
+                <h4>Ações do poder público e das empresas</h4>
+                <ul>
+                  <li>
+                    O racismo é crime inafiançável e imprescritível no Brasil
+                    (CF/88, art. 5º, XLII), com tipificação pela Lei 7.716/1989.
+                  </li>
+                  <li>
+                    O Marco Civil da Internet (art. 19) trata da
+                    responsabilidade de provedores por conteúdo de terceiros
+                    mediante ordem judicial.
+                  </li>
+                  <li>
+                    O Ministério Público Federal e delegacias especializadas em
+                    crimes cibernéticos atuam na apuração de casos denunciados.
+                  </li>
+                  <li>
+                    Plataformas vêm ampliando políticas próprias de remoção,
+                    desmonetização e banimento de contas reincidentes.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===================== CASO 3 ===================== -->
+          <article class="case" id="caso-3">
+            <button
+              class="case-toggle"
+              aria-expanded="false"
+              aria-controls="painel-3"
+            >
+              <span class="case-index">03</span>
+              <span class="case-titles">
+                <h3>
+                  Violação de privacidade e uso indevido de dados pessoais
+                </h3>
+                <span>Dado pessoal é extensão da dignidade humana</span>
+              </span>
+              <span class="case-chevron" aria-hidden="true">+</span>
+            </button>
+
+            <div class="case-panel" id="painel-3" hidden>
+              <div class="case-block">
+                <h4>O que houve</h4>
+                <p>
+                  O Brasil registrou, em 2021, um dos maiores vazamentos de
+                  dados pessoais já noticiados no país, expondo informações
+                  associadas a mais de 220 milhões de CPFs ,nome, data de
+                  nascimento, renda estimada e, em parte dos registros, dados de
+                  veículos e vínculos familiares. Esse padrão se repete em menor
+                  escala em incidentes envolvendo aplicativos, varejo e serviços
+                  financeiros, e alimenta um mercado paralelo de venda de dados
+                  usado para golpes, discriminação de crédito e perfilamento sem
+                  consentimento.
+                </p>
+              </div>
+
+              <div class="case-block violacao">
+                <h4>Artigos e normas violadas</h4>
+                <div class="chips">
+                  <span class="chip">DUDH · Art. 12</span>
+                  <span class="chip">CF/88 · Art. 5º, X</span>
+                  <span class="chip">LGPD · Lei 13.709/2018</span>
+                  <span class="chip"
+                    >Princípios da finalidade e da necessidade (LGPD, Art.
+                    6º)</span
+                  >
+                </div>
+              </div>
+
+              <div class="case-block prevencao">
+                <h4>Prevenção</h4>
+                <ul>
+                  <li>
+                    <em>Privacy by design</em> e <em>by default</em>: minimizar
+                    coleta desde a concepção do sistema.
+                  </li>
+                  <li>
+                    Criptografia de dados em repouso e em trânsito, com controle
+                    de acesso segmentado.
+                  </li>
+                  <li>
+                    Designação de Encarregado (DPO) e canal de atendimento a
+                    titulares de dados.
+                  </li>
+                  <li>
+                    Consentimento granular e específico — nunca genérico ou
+                    pré-marcado.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="case-block acao">
+                <h4>Ações do poder público e das empresas</h4>
+                <ul>
+                  <li>
+                    A ANPD (Autoridade Nacional de Proteção de Dados) pode
+                    aplicar sanções administrativas, incluindo multa de até 2%
+                    do faturamento, limitada a R$ 50 milhões por infração.
+                  </li>
+                  <li>
+                    O Ministério Público pode ajuizar ação civil pública por
+                    dano coletivo em caso de vazamento comprovado.
+                  </li>
+                  <li>
+                    Titulares afetados podem buscar reparação individual ou
+                    coletiva por meio de ações judiciais.
+                  </li>
+                  <li>
+                    Empresas vêm investindo em auditorias de segurança
+                    periódicas e planos de resposta a incidentes.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ============================================================
+       CONSCIENTIZAÇÃO — fechamento antes das referências
+  ============================================================= -->
+      <section class="consciencia" id="consciencia">
+        <div class="container">
+          <p class="eyebrow">Antes de fechar</p>
+          <h2>
+            Tecnologia não é neutra, <br />
+            Exige vigilância !
+          </h2>
+          <div class="consciencia-grid">
+            <p class="consciencia-lede">
+              Os três casos apresentados têm uma raiz comum: Sistemas técnicos
+              herdam os vieses, os incentivos e as omissões de quem os projeta,
+              treina e opera. Um algoritmo de recrutamento não nasce
+              discriminatório : Ele aprende a discriminar com os dados que
+              recebe. Uma rede social não nasce hostil : Ela otimiza para
+              engajamento e, sem freios, o ódio engaja. Um banco de dados não
+              vaza sozinho : Ele vaza quando a privacidade é tratada como custo,
+              e não como direito.
+            </p>
+            <div class="consciencia-points">
+              <div class="cpoint">
+                <span class="cnum">01</span>
+                <p>
+                  Direitos humanos na era digital não são uma pauta à parte: são
+                  a mesma Declaração de 1948 aplicada a um novo conjunto de
+                  ferramentas. O critério de dignidade não muda porque o meio
+                  mudou.
+                </p>
+              </div>
+              <div class="cpoint">
+                <span class="cnum">02</span>
+                <p>
+                  Prevenção é mais barata , e mais ética , do que reparação.
+                  Auditoria, transparência e desenho responsável evitam o dano;
+                  multa e indenização apenas o compensam depois que já ocorreu.
+                </p>
+              </div>
+              <div class="cpoint">
+                <span class="cnum">03</span>
+                <p>
+                  A responsabilidade é compartilhada: cabe ao poder público
+                  regular e fiscalizar, às empresas auditar e prestar contas, e
+                  a cada usuário exercer criticamente seus direitos , denunciar,
+                  questionar e exigir explicação de decisões automatizadas que o
+                  afetam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+       REFERÊNCIAS
+  ============================================================= -->
+      <section class="refs" id="referencias">
+        <div class="container">
+          <p class="eyebrow">Fontes normativas</p>
+          <h2>Referências</h2>
+          <ol>
+            <li>
+              <span class="cite-title">ORGANIZAÇÃO DAS NAÇÕES UNIDAS.</span>
+              Declaração Universal dos Direitos Humanos. Paris: Assembleia Geral
+              da ONU, 1948.
+            </li>
+            <li>
+              <span class="cite-title">BRASIL.</span> Constituição da República
+              Federativa do Brasil de 1988. Brasília: Senado Federal, 1988.
+            </li>
+            <li>
+              <span class="cite-title">BRASIL.</span> Lei nº 9.029, de 13 de
+              abril de 1995. Proíbe a exigência de atestados de gravidez e
+              esterilização, e outras práticas discriminatórias, para efeitos
+              admissionais ou de permanência da relação jurídica de trabalho.
+            </li>
+            <li>
+              <span class="cite-title">BRASIL.</span> Consolidação das Leis do
+              Trabalho (CLT), Decreto-Lei nº 5.452/1943, Art. 373-A.
+            </li>
+            <li>
+              <span class="cite-title">BRASIL.</span> Lei nº 7.716, de 5 de
+              janeiro de 1989. Define os crimes resultantes de preconceito de
+              raça ou de cor.
+            </li>
+            <li>
+              <span class="cite-title">BRASIL.</span> Lei nº 12.965, de 23 de
+              abril de 2014 (Marco Civil da Internet).
+            </li>
+            <li>
+              <span class="cite-title">BRASIL.</span> Lei nº 13.709, de 14 de
+              agosto de 2018 (Lei Geral de Proteção de Dados Pessoais — LGPD).
+            </li>
+            <li>
+              <span class="cite-title">BRASIL.</span> Congresso Nacional.
+              Projeto de Lei nº 2.338/2023 — Marco legal da inteligência
+              artificial.
+            </li>
+            <li>
+              <span class="cite-title"
+                >AUTORIDADE NACIONAL DE PROTEÇÃO DE DADOS (ANPD).</span
+              >
+              Regulamentações e relatórios de fiscalização. Disponível em:
+              gov.br/anpd.
+            </li>
+            <li>
+              <span class="cite-title"
+                >MINISTÉRIO PÚBLICO DO TRABALHO (MPT).</span
+              >
+              Atuação em discriminação nas relações de trabalho. Disponível em:
+              mpt.mp.br.
+            </li>
+          </ol>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <img src="images/img01.png" width="70" height="70" />
+        <div>
+          <p>Faculdade De Tecnologia Senac Rio</p>
+          <p>Diversidade Cultural e Direitos Humanos</p>
+          <p>Autor : Gabriel Christino</p>
+        </div>
+
+        <img src="images/img02.png" width="70" height="70" />
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
