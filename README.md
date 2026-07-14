@@ -29,7 +29,6 @@ Este trabalho interativo examina como sistemas técnicos — algoritmos de recru
   - *Fraunces*: Exibição (títulos, citações jurídicas)
   - *Source Sans 3*: Corpo de texto
   - *IBM Plex Mono*: Utilitária (parágrafos jurídicos)
-- **Bootstrap 5.3.8**: Via CDN (utilitários opcionais)
 
 ---
 
